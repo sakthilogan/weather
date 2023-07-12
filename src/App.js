@@ -22,7 +22,7 @@ class App extends React.Component {
   onSearch = () =>{
     this.setState({loader: true})
     let url =
-    "http://api.openweathermap.org/data/2.5/weather?appid=3c300c8a571734d10bee3d12daafd184&units=metric&q=" +
+    "https://api.openweathermap.org/data/2.5/weather?appid=3c300c8a571734d10bee3d12daafd184&units=metric&q=" +
     this.state.country;
 
     axios.get(url).then((response)=>{console.log("Response is working", response);
