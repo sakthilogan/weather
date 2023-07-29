@@ -1,6 +1,5 @@
-*{
-  
-}
+* {}
+
 .centerDiv {
   box-shadow: 0px 0px 5px 2px #1d2c44;
   padding: 20px;
@@ -43,4 +42,17 @@ body {
 .temp {
   font-size: larger;
   font-weight: 500;
+}
+
+.footer-text {
+  text-transform: none;
+  text-align: center;
+}
+
+.footer-text p {
+  margin-bottom: 0px;
+  padding: 2px 15px;
+  background: #fff;
+  color: #000;
+  margin-top: 30px;
 }

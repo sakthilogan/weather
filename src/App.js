@@ -70,9 +70,20 @@ class App extends React.Component {
             wrapperClass="blocks-wrapper"
             colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
           />
+           <footer>
+        <div className="container footer-text">
+          <div className="row">
+            <p>&copy; Copyright 2023 sakthi - All Rights Reserved.</p>
+          </div>
+        </div>
+
+       </footer>
        </div>
        </div>
+       
+      
   }
+  
 }
 
 
