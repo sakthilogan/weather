@@ -73,7 +73,7 @@ class App extends React.Component {
            <footer>
         <div className="container footer-text">
           <div className="row">
-            <p>&copy; Copyright 2023 sakthi - All Rights Reserved.</p>
+            <p>&copy; 2023 Sakthi Apps.<br></br>All Rights Reserved.</p>
           </div>
         </div>
 
