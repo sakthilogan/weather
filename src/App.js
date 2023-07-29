@@ -51,7 +51,7 @@ class App extends React.Component {
         {this.state.loader ? (
           ""
         ):(
-          <div>
+          <div className='inner-input'>
       Current Temperature = <div className='temp'>{this.state.temp}°Celsius</div>
       Country = {this.state.country} <br/>
       Type = {this.state.type} <br/>

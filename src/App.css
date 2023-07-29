@@ -56,3 +56,7 @@ body {
   color: #000;
   margin-top: 30px;
 }
+
+.inner-input {
+  line-height: 30px;
+}
