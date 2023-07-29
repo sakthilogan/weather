@@ -35,7 +35,7 @@ class App extends React.Component {
 
   render() {
     console.log("this.state", this.state);
-    return <div className='col-12 col-md-4 offset-md-4'> 
+    return <div className='col-10 offset-1 col-md-4 offset-md-4'> 
     <h2 className='text-center'>TODAY WEATHER FORECAST - REPORT</h2>
     <div className="centerDiv container"> 
       
